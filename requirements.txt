@@ -1,0 +1,34 @@
+# Core ML + Transformers
+torch==2.7.1
+transformers==4.54.0
+tokenizers==0.21.2
+sentencepiece==0.2.0
+safetensors==0.5.3
+sentence-transformers==5.0.0
+
+# PDF Parsing
+pdfminer.six==20250506
+pdfplumber==0.10.3
+PyPDF2==3.0.1
+pillow==11.3.0
+
+# Ranking & Text Analysis
+scikit-learn==1.7.1
+scipy==1.15.3
+numpy==2.2.6
+regex==2024.11.6
+
+# Utility / System
+requests==2.32.4
+tqdm==4.67.1
+filelock==3.18.0
+packaging==25.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML==6.0.2
+typing_extensions==4.14.1
+urllib3==2.5.0
+
+# Optional (can be removed if unused)
+Jinja2==3.1.6
+joblib==1.5.1

@@ -1,0 +1,193 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-27T17:18:49.524495"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "9. Prepare the Agreement  and Add Fields:",
+            "importance_rank": 1,
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Types of PDF forms",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Fill and Sign PDF Forms",
+            "importance_rank": 3,
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Change flat forms to fillable (Acrobat  Pro)",
+            "importance_rank": 4,
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Simplified  mode  for multiple  signers",
+            "importance_rank": 5,
+            "page_number": 5
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "8. Click  Next  in the upper right corner of the window.",
+            "importance_rank": 6,
+            "page_number": 13
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "License  deployment",
+            "importance_rank": 7,
+            "page_number": 18
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "The Advanced  Settings  button opens the  Adobe  PDF Settings  dialog box, which contains many",
+            "importance_rank": 8,
+            "page_number": 21
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "Common  questions",
+            "importance_rank": 9,
+            "page_number": 16
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "5. Once your purchase is complete, you can assign licenses to users from  the Add users",
+            "importance_rank": 10,
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "section_title": "certificates that are signed and certified by a trust anchor. Therefore, administrators can",
+            "importance_rank": 11,
+            "page_number": 9
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_1.pdf",
+            "section_title": "purposes  that do not include  training  a Large  Language  Model  (\u201cLLM\u201d). Examples  of",
+            "importance_rank": 12,
+            "page_number": 5
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "section_title": "Adobe LiveCycle Rights Management",
+            "importance_rank": 13,
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_1.pdf",
+            "section_title": "Acrobat",
+            "importance_rank": 14,
+            "page_number": 15
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "section_title": "For a list and explanation of each warning, see the  DigSig  Admin  Guide .",
+            "importance_rank": 15,
+            "page_number": 10
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer. Create a signature field for each signer",
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Use the Fill & Sign tool.",
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "summarize: Fill and Sign PDF Forms You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types of PDF forms",
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "summary: Change flat forms to fillable (Acrobat Pro) You can change a flat form to a fillable form by either using the Prepare Form tool or enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool to fill in flat forms. Interactive form To create an interactive form, use the Prepare Forms tool. See Create a form from an existing document. Flat form To enable the Fill",
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "\u2022 Simplified mode for multiple signers This mode provides simplified authoring with the capability of assigning fields to multiple signers. When you select a signer from the right pa ne and add fields in the form, the fields are assigned to the signer. That means those fields will be available to the signer for filling the information and signing the form.",
+            "page_number": 5
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Click Next. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers. Click Signers.",
+            "page_number": 13
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a product profile. Create a",
+            "page_number": 18
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Advanced Settings opens the Adobe PDF Settings dialog box, which contains many additional conversion options. These conversion settings apply to all Acrobat features that create PDFs, such as Acrobat Distiller, PDFMaker, and the Acrobat application itself. PDF/A Compliance Creates the PDF so that it c onforms to the selected ISO standard for long -term preservation of electronic documents. PDF/A Compliance Creates the PDF so that it c onform",
+            "page_number": 21
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "If you have multiple profiles associated with your organization-provided Adobe account, you must first choose which profile to sign in with. Then, request a product fro m that profile. The request will be routed to the organization and administrators associated with that profile. What if I can\u2019t find the option to request access to AI Assistant for Acrobat?",
+            "page_number": 16
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "Purchase Acrobat from Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat. Select the link to launch Acrobat.",
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "refined_text": "Summary: Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a PDF Portfolio. Sign component PDFs within a",
+            "page_number": 9
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_1.pdf",
+            "refined_text": "Acrobat and Acrobat Reader.",
+            "page_number": 5
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "refined_text": "Understand how ALCRM servers work. Use ALCRM servers to set perm.",
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_1.pdf",
+            "refined_text": "1. Add meeting transcripts under Thir.",
+            "page_number": 15
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "refined_text": "Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the DigSig Admin Guide. Read the Dig",
+            "page_number": 10
+        }
+    ]
+}

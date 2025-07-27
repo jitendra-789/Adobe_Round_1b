@@ -1,0 +1,187 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-27T17:27:28.155421"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Serve immediately.",
+            "importance_rank": 1,
+            "page_number": 16
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "1/4 cup spinach, chopped",
+            "importance_rank": 2,
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "In the same skillet, cook ground lamb or beef, diced onion, and minced garlic until",
+            "importance_rank": 3,
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings",
+            "importance_rank": 4,
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese.",
+            "importance_rank": 5,
+            "page_number": 3
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Serve on lettuce leaves or whole grain bread.",
+            "importance_rank": 6,
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Drain on paper towels and serve.",
+            "importance_rank": 7,
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "1/4 cup bacon, chopped",
+            "importance_rank": 8,
+            "page_number": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "1 cup cooked chicken breast, diced",
+            "importance_rank": 9,
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "1 bell pepper, diced",
+            "importance_rank": 10,
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "1/2 cup basil pesto",
+            "importance_rank": 11,
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Cook gnocchi according to package instructions, then drain.",
+            "importance_rank": 12,
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer",
+            "importance_rank": 13,
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Quiche Lorraine",
+            "importance_rank": 14,
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "o Serve as a dip or side dish.",
+            "importance_rank": 15,
+            "page_number": 15
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 1 apple, sliced \u2022 2 tablespoons almond butter",
+            "page_number": 16
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Slices of whole grain bread, turkey breast, turkey app",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "1 pound chicken breast, 1 pound sausage, sli",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "1 pound ground beef \u2022 1 small onion, diced \u2022 2 cloves garlic, minced \u2022 1 jar (24 ounces) m",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "Garlic, onion, garlic, carrot, celery stalk, tomatoes, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano, oregano",
+            "page_number": 3
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Ingredients: \u2022 2 slices ciabatta bread \u2022 1/2 cup fresh mozzarella, sliced \u2022 1 tomato, sliced \u2022 Fresh basil leaves \u2022 1 tablespoon balsamic glaze \u2022 1 tablespoon olive oil \u2022 Salt and pepper to taste Instructions: \u2022 Drizzle olive oil on one slice of bread. \u2022 Layer the mozzarella, tomato, and basil on top. \u2022 Drizzle with balsamic glaze and season with salt and pepper.",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "summary: o 2 pita breads o 4 tomatoes o 1 cucumber o 1 sm",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "Cook bacon and green onions in a large skillet over medium-high heat.",
+            "page_number": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 4 slices turkey breast \u2022 4 slices chee",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "ricotta cheese, onion, garlic, zucchini, and bell pepper.",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "Beef and Broccoli Ingredients: \u2022 1 pound beef sirloin, thinly sliced \u2022 2 cups broccol",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "Honey Garlic Pork Ribs Ingredients: \u2022 2 pounds pork ribs \u2022 1/4 cup honey \u2022 1/4 cup soy sauce \u2022 2 tablespoons rice vinegar",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "Bake at 350 degrees Fahrenheit (177 degrees Celsius).",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "Ingredients: \u2022 1 pie crust \u2022 6 slices bacon, cooked and crumbled \u2022 1 small onion, diced \u2022 1 cup grated Gruy\u00e8re cheese \u2022 3 eggs \u2022 1/2 teaspoon salt \u2022 1/4 teaspoon pepper Instructions: \u2022 Preheat oven to 375\u00b0F (190\u00b0C). \u2022 Place pie crust in a pie dish. \u2022 Sprinkle cooked bacon, diced onion, and grated Gruy\u00e8re cheese over the crust. \u2022 Pour egg m ixture",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Serves as a dip or side dish. Som Tum (Green Papaya Salad) \u2022 Ingredients : o 1 green papaya o 2 tomatoes o 1 carrot o 2 cloves garlic o 2 tablespoons fish sauce o 2 tablespoons lime juice o 1 tablespoon sugar o 1 tablespoon peanuts o 1-2 Thai chilies \u2022 Instructions : o Peel and shred green papaya and",
+            "page_number": 15
+        }
+    ]
+}
