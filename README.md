@@ -1,8 +1,3 @@
-Here is a complete and concise README.md file for your Adobe_Round_1b submission, fully aligned with the required deliverables, execution expectations, and scoring criteria you just shared:
-
-⸻
-
-
 # Adobe Round 1B – Intelligent Document Section Extractor
 
 ## 📝 Overview
@@ -14,7 +9,7 @@ This project addresses **Challenge 1B** of the Adobe Document Intelligence task.
 ## 📂 Directory Structure
 
 Adobe_Round_1b/
-├── input/                      # Folder for input PDFs and persona
+├── input/                     # Folder for input PDFs and persona
 │   ├── *.pdf
 │   ├── persona.json
 │   └── job_description.json
@@ -118,7 +113,3 @@ Output Format	—	✅ Structured JSON output
 ❗ Notes
 	•	Please ensure model files are placed in models/ before building the Docker image.
 	•	Internet access is not required for Docker runtime.
-
----
-
-Let me know if you'd like a version tailored to a different model or structure (e.g., if `main.py` takes args like `--input` and `--output`).
