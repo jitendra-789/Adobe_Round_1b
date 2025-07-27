@@ -11,7 +11,7 @@ class RelevanceRanker:
         self.collection_dir = collection_dir
         self.loader = InputLoader(collection_dir)
         self.extractor = PDFExtractor(collection_dir)
-        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+        self.model = SentenceTransformer("models/flan-t5-small")  # ✅ Load local model
 
     def rank_sections(self):
         persona = self.loader.input_data["persona"]["role"]
