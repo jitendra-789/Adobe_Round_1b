@@ -1,0 +1,185 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+        "processing_timestamp": "2025-07-28T00:05:25.122606"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Notebook:  Bring a notebook to jot down notes about the wines you taste.",
+            "importance_rank": 1,
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "General Packing Tips and Tricks",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing,",
+            "importance_rank": 3,
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Family -Friendly Hotels",
+            "importance_rank": 4,
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Overview of the Region",
+            "importance_rank": 5,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Family -Friendly Activities",
+            "importance_rank": 6,
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Monaco: Explore the Mus\u00e9e Oc\u00e9anographique and its marine exhibits, including a",
+            "importance_rank": 7,
+            "page_number": 10
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Hotels",
+            "importance_rank": 8,
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Coastal Adventures",
+            "importance_rank": 9,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Upscale Hotels",
+            "importance_rank": 10,
+            "page_number": 11
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Aix-en-Provence: A City of Art and Culture",
+            "importance_rank": 11,
+            "page_number": 8
+        },
+        {
+            "document": "South of France - History.pdf",
+            "section_title": "A Historical Journey Through the South of France",
+            "importance_rank": 12,
+            "page_number": 1
+        },
+        {
+            "document": "South of France - History.pdf",
+            "section_title": "Conclusion",
+            "importance_rank": 13,
+            "page_number": 12
+        },
+        {
+            "document": "South of France - History.pdf",
+            "section_title": "Aix-en-Provence: A City of Art and Culture",
+            "importance_rank": 14,
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "section_title": "Culinary Experiences",
+            "importance_rank": 15,
+            "page_number": 6
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "Write a list of the wines you will be tasting.",
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "summary: General Packing Tips and Tricks \u2022 Layeri ng: The weather can vary, so pack layers to stay comfortable in different temperatures. \u2022 Versatile Clothing: Choose items that can be mixed and matched to create multiple outfits, helping you pack lighter. \u2022 Packing Cubes: Use packing cubes to organize your c lothes and maximize suitcase space. \u2022 Roll Your Clothes: Rolling clothes saves space and reduces wrinkles",
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with kids, or in a group, this guide will help you make the most of your trip.",
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "\u2022 Club Med Opio en Provence (Opio): A family -friendly resort offering a wide range of activities for children and adults, including sports, entertainment, and kids' clubs. The beautiful setting and al l-inclusive amenities make it a hassle -free vacation spot. \u2022 Le Mas de Pierre (Saint-Paul -de-Vence): A luxurious family -friendly hotel offering spacious rooms, beautiful gardens, and",
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "The South of France, or \"Le Midi,\" encompasses the regions of Provence -Alpes -C\u00f4te d'Azur, Occitanie, and parts of Nouvelle -Aquitaine.",
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "The South of France offers a variety of activities that are perfect for families with children: Theme Parks and Attractions \u2022 Antibes: Visit Marineland for marine shows and an aquarium. \u2022 Fr\u00e9jus: Cool off at Aqualand water park. \u2022 Villeneuve - Loubet: Enjoy quirky attractions at Le Village des Fous. \u2022 Monteux: Spend a day at Parc Spirou, a theme park based on the famous",
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "Mus\u00e9e Oc\u00e9anographique and its marine exhibits, including a shark lagoon and touch tanks, and visit museums dedicated to prehistoric life.",
+            "page_number": 10
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Hotel Hote is a charming hotel located in a historic building, offering affordable rates and beautiful views of the Mediterranean. The coz y rooms and friendly service make it a pleasant stay.",
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "Coastal Adventures The South of Franc e is renowned for its beautiful coastline along the Mediterranean Sea. Here are some activities to enjoy by the sea: Beach Hopping \u2022 Nice : Visit the sandy shores and enjoy the vibrant Promenade des Anglais. \u2022 Antibes : Relax on the pebbled beaches and explore t he charming old town. \u2022 Saint -Tropez : Experience the exclusive beach clubs and glamorous atmosphere.",
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Hotel Martin is a five-star hotel located on the Promenade des Anglais, off ering luxurious rooms and exceptional service. The opulent decor and prime location make it a landmark in Nice. \u2022 InterContinental Marseille - Hotel Dieu (Marseille): A luxurious hotel located in a beautifully restored 18th -century building, offering stunnin g views of the Old Port and the city. The elegant rooms",
+            "page_number": 11
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "\u2022 Cours Mirabeau: This grand boulevard, lined with plane trees, has been a center of art and learning for centuries, attracting artists, writers, and scholars.",
+            "page_number": 8
+        },
+        {
+            "document": "South of France - History.pdf",
+            "refined_text": "Introduction The South of France, renowned for its picturesque landscapes, charming villages, and stunning coastline, is also steeped in history. From ancient Roman ruins to medieval fortresses and Renaissance architecture, this region offers a fascinating glimpse into the past.",
+            "page_number": 1
+        },
+        {
+            "document": "South of France - History.pdf",
+            "refined_text": "Conclusion The South of France offers a rich tapestry of history, culture, and architecture that is sure to captivate any traveler. From the ancient Roman ruins of N\u00eemes and Arles to the medieval fortresses of Carcassonne and Avignon, each city and town has its own u nique story to tell. Whether you're exploring the vibrant streets of Marseille, the elegant boulevards of Aix -en-Provence",
+            "page_number": 12
+        },
+        {
+            "document": "South of France - History.pdf",
+            "refined_text": "Aix-en-Provence is known for its elegant architecture, vibrant cultural scene, and association with the painter Paul C\u00e9zanne.",
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Cuisine.pdf",
+            "refined_text": "Learn how to cook tradi tional dishes. Learn how to prepare tradi tional dishes like bouillabaisse, ratatouille, and tarte trop\u00e9zienne. Learn how to prepare tradi tional dishes like bouillabaisse, ratatouille, and tarte trop\u00e9zienne. Learn how to prepare tradi tional dishes like bouillabaisse, ratatouille, and tart",
+            "page_number": 6
+        }
+    ]
+}

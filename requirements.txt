@@ -7,18 +7,18 @@ safetensors==0.5.3
 sentence-transformers==5.0.0
 
 # PDF Parsing
-pdfminer.six==20250506
+pdfminer.six==20221105      # ✅ compatible with pdfplumber 0.10.3
 pdfplumber==0.10.3
 PyPDF2==3.0.1
 pillow==11.3.0
 
 # Ranking & Text Analysis
-scikit-learn==1.7.1
-scipy==1.15.3
-numpy==2.2.6
+scikit-learn==1.6.1   # ✅ Downgraded to work with Python 3.10
+scipy==1.11.4
+numpy==1.26.4
 regex==2024.11.6
 
-# Utility / System
+# Utility
 requests==2.32.4
 tqdm==4.67.1
 filelock==3.18.0
@@ -28,7 +28,3 @@ pytz==2025.2
 PyYAML==6.0.2
 typing_extensions==4.14.1
 urllib3==2.5.0
-
-# Optional (can be removed if unused)
-Jinja2==3.1.6
-joblib==1.5.1
