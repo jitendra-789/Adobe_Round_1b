@@ -9,10 +9,35 @@ from src.pdf_extractor import PDFExtractor
 from src.relevance_ranker import RelevanceRanker
 from src.text_refiner_llm import LLMRefiner
 
+
 def clean_title(text):
-    """Extract the first meaningful line as the section title."""
-    first_line = text.strip().split("\n")[0]
-    return re.sub(r"^[•\-\*\s]+", "", first_line).strip()
+    """
+    Extracts an intelligent section title by analyzing the first few lines.
+    It avoids generic titles (e.g., 'Conclusion') and prefers informative ones.
+    """
+    lines = [line.strip() for line in text.strip().split("\n") if line.strip()]
+    
+    # If no lines, return a fallback
+    if not lines:
+        return "Untitled Section"
+
+    # Filter candidates: avoid lines that are too short or purely numeric/bullet-like
+    candidates = []
+    for line in lines[:10]:  # Check top 10 lines only
+        # Skip lines with fewer than 3 words or purely numeric
+        if len(line.split()) < 3:
+            continue
+        if re.match(r"^[\d\W_]+$", line):
+            continue
+        candidates.append(line)
+
+    # Prefer the longest candidate line that seems like a title
+    if candidates:
+        best = sorted(candidates, key=lambda x: len(x), reverse=True)[0]
+        return best.strip(":-–. ")
+
+    # Fallback to first non-empty line
+    return lines[0].strip(":-–. ")
 
 def select_top_sections_diverse(all_sections, max_per_doc=2, top_n=10):
     doc_counter = defaultdict(int)
@@ -49,7 +74,7 @@ def run_pipeline(input_dir="input", output_dir="output"):
     top_sections = select_top_sections_diverse(
         all_ranked_sections,
         max_per_doc=3,
-        top_n=15
+        top_n=20
     )
 
     # Phase 4: Refine selected sections using CPU-based LLM
@@ -81,7 +106,7 @@ def run_pipeline(input_dir="input", output_dir="output"):
     # Save output JSON
     output_file = os.path.join(output_dir, "challenge1b_output.json")
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, indent=4)
+        json.dump(output_data, f, indent=4, ensure_ascii=False)
 
     print(f"\n✅ Output saved to: {output_file}")
 
