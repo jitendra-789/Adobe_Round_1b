@@ -33,17 +33,17 @@ def select_top_sections_diverse(all_sections, max_per_doc=2, top_n=10):
 
     return selected
 
-def run_pipeline(collection_path):
+def run_pipeline(input_dir="input", output_dir="output"):
     # Phase 0: Load input
-    loader = InputLoader(collection_path)
+    loader = InputLoader(input_dir)
     persona = loader.input_data['persona']['role']
     task = loader.input_data['job_to_be_done']['task']
 
     # Phase 1 & 2: Extract text from PDFs
-    extractor = PDFExtractor(collection_path)
+    extractor = PDFExtractor(input_dir)
     _ = extractor.extract_text()
 
-    ranker = RelevanceRanker(collection_path)
+    ranker = RelevanceRanker(input_dir)
     all_ranked_sections = ranker.rank_sections()
 
     top_sections = select_top_sections_diverse(
@@ -51,6 +51,7 @@ def run_pipeline(collection_path):
         max_per_doc=3,
         top_n=15
     )
+
     # Phase 4: Refine selected sections using CPU-based LLM
     llm_refiner = LLMRefiner("models/flan-t5-small")
     subsection_analysis = llm_refiner.refine_sections(top_sections)
@@ -74,8 +75,11 @@ def run_pipeline(collection_path):
         "subsection_analysis": subsection_analysis
     }
 
+    # Ensure output folder exists
+    os.makedirs(output_dir, exist_ok=True)
+
     # Save output JSON
-    output_file = os.path.join(collection_path, "challenge1b_output.json")
+    output_file = os.path.join(output_dir, "challenge1b_output.json")
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=4)
 
@@ -83,5 +87,4 @@ def run_pipeline(collection_path):
 
 
 if __name__ == "__main__":
-    collection_name = "Collection_3"  # Change as needed
-    run_pipeline(collection_name)
+    run_pipeline()
