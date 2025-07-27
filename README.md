@@ -8,22 +8,22 @@ This project addresses **Challenge 1B** of the Adobe Document Intelligence task.
 
 ## 📂 Directory Structure
 
+```
 Adobe_Round_1b/
 ├── input/                     # Folder for input PDFs and persona
 │   ├── *.pdf
-│   ├── persona.json
-│   └── job_description.json
+│   └── challenge1b_input.json
 ├── output/
 │   └── challenge1b_output.json
 ├── models/                    # Pre-downloaded FLAN-T5/MT5 model files
 ├── main.py                    # Entry-point script for processing
-├── utils/                     # Helper modules
+├── src/                     # Helper modules
 │   └── *.py
 ├── Dockerfile
 ├── requirements.txt
 ├── approach_explanation.md
 └── README.md
-
+```
 ---
 
 ## ⚙️ Execution Instructions (Docker)
