@@ -48,6 +48,12 @@ This will build the Docker image using the provided Dockerfile.
 🚀 2. Run the Docker Container
 
 Assuming your input PDFs and JSON are in the **input/** folder, run:
+```
+Adobe_Round_1b/
+├── input/                     # Folder for input PDFs and persona
+│   ├── *.pdf
+│   └── challenge1b_input.json
+```
 ```bash
 docker run --rm \
   -v $(pwd)/input:/app/input \
