@@ -141,7 +141,7 @@ The generated output JSON follows the structure outlined below:
 	•	Offline execution setup with local models
 
 ⸻
-##👨‍💻 Authors
+## 👨‍💻 Authors
 👥 TeamIronMan – Adobe Hackathon 2025
 
 This solution was collaboratively built as part of the Adobe Hackathon 2025 by TeamIronMan 🚀:
