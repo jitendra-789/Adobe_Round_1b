@@ -141,10 +141,14 @@ The generated output JSON follows the structure outlined below:
 	•	Offline execution setup with local models
 
 ⸻
-## 👨‍💻 Author
+##👨‍💻 Authors
+👥 TeamIronMan – Adobe Hackathon 2025
 
-**Jitendra Kolli**  
-Adobe Hackathon 2025 Participant  
-[https://github.com/jitendra-789](https://github.com/jitendra-789)
+This solution was collaboratively built as part of the Adobe Hackathon 2025 by TeamIronMan 🚀:
 
----
+
+**Jitendra Kolli**
+: [https://github.com/jitendra-789](jitendra-789)
+
+**Prasanth**
+: [https://github.com/prasanth1221](prasanth1221)
