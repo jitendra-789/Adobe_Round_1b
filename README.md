@@ -150,5 +150,5 @@ This solution was collaboratively built as part of the Adobe Hackathon 2025 by T
 **Jitendra Kolli**
 : [https://github.com/jitendra-789](jitendra-789)
 
-**Prasanth**
+**Prasanth Kumar**
 : [https://github.com/prasanth1221](prasanth1221)
