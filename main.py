@@ -78,7 +78,7 @@ def run_pipeline(input_dir="input", output_dir="output"):
     )
 
     # Phase 4: Refine selected sections using CPU-based LLM
-    llm_refiner = LLMRefiner("models/flan-t5-small")
+    llm_refiner = LLMRefiner("models/all-MiniLM-L6-v2")
     subsection_analysis = llm_refiner.refine_sections(top_sections)
 
     # Phase 5: Combine and export results
