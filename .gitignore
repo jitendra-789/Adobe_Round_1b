@@ -6,11 +6,9 @@ __pycache__/
 *.pyc
 
 # Ignore model weights and large files
-*.safetensors
 *.onnx
 *.mp4
 *.zip
-*.pdf
 
 # MacOS system files
 .DS_Store
