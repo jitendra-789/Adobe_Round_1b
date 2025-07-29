@@ -1,240 +1,242 @@
 {
     "metadata": {
         "input_documents": [
-            "South of France - Cities.pdf",
-            "South of France - Cuisine.pdf",
-            "South of France - History.pdf",
-            "South of France - Restaurants and Hotels.pdf",
-            "South of France - Things to Do.pdf",
-            "South of France - Tips and Tricks.pdf",
-            "South of France - Traditions and Culture.pdf"
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
         ],
-        "persona": "Travel Planner",
-        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
-        "processing_timestamp": "2025-07-27T19:15:59.270621"
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-29T23:39:34.903225"
     },
     "extracted_sections": [
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "Planning a trip to the South of France requires thoughtful preparation to ensure a comfortable and enjoyable experience. This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with kids, or in a group, this guide will help you make the most of your trip",
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "• In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper",
             "importance_rank": 1,
-            "page_number": 1
+            "page_number": 16
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "• Additional Tips:  Download maps and travel guides to your devices for oﬄine use",
+            "document": "Lunch Ideas.pdf",
+            "section_title": "• In a bowl, combine the mashed chickpeas, spinach, carrots, tahini, and lemon juice",
             "importance_rank": 2,
-            "page_number": 5
-        },
-        {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "enjoyable trip. Remember to pack light, versatile clothing, and essential items to make the most of your travel experience. Bon voyage!",
-            "importance_rank": 3,
-            "page_number": 9
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "section_title": "a wealth of activities and experiences for travelers. Whether you're seeking adventure, relaxation, or cultural enrichment, this region has something for everyone. This guide will take you through a variety of activities and must -see attractions to help you plan an",
-            "importance_rank": 4,
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "section_title": "spots, upscale dining, or luxurious experiences, this guide will help you find the perfect places to eat and stay during your trip. From the vibrant cities of Nice and Marseille to the charming villages of Provence, the South of France promises an unforgettable travel experience. Bon",
-            "importance_rank": 5,
             "page_number": 14
         },
         {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "section_title": "cuisine, is a dream destination for travelers. From the glamorous beaches of the French Riviera to the charming villages of Provence, this region oﬀers a diverse array of experiences. Whether you're looking for budget -friendly options, family -friendly spots, upscale dining, or",
-            "importance_rank": 6,
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "section_title": "and experiences for travelers. Whether you're exploring the stunning coastline, immersing yourself in the  rich cultural heritage, or indulging in the culinary delights, there is something",
-            "importance_rank": 7,
-            "page_number": 13
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "section_title": "paradise for food lovers. The region's cuisine is a delightful blend of Mediterranean flavors, fresh ingredients, and traditional recipes passed down through generations. This guide will",
-            "importance_rank": 8,
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "section_title": "• Pastry Workshops: French pastries are renowned worldwide, and the South of France is no exception. Join a pastry workshop to learn how to make classic French pastries like crois sants, éclairs, and macarons. These workshops are a fun and interactive way",
-            "importance_rank": 9,
-            "page_number": 7
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "lovers from around the globe. Nice's cuisine is also a highlight, with dishes like salade niçoise",
-            "importance_rank": 10,
-            "page_number": 6
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "section_title": "with fresh, local ingredients. The elegant setting and exceptional service make it a top",
-            "importance_rank": 11,
-            "page_number": 5
-        },
-        {
-            "document": "South of France - History.pdf",
-            "section_title": "stunning coastline, is also steeped in history. From ancient Roman ruins to medieval fortresses and Renaissance architecture, this region oﬀers a fascinating glimpse into the past. This guide will take you through the histories of major cities, famous historical sites, and other points of interest to help you plan an enriching and unforgettable trip",
-            "importance_rank": 12,
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "section_title": "experiences, there is something for everyone to enjoy. Whether you're savoring a bowl of bouillabaisse by the sea, exploring vibrant food markets, or indulging in a Mich elin-starred",
-            "importance_rank": 13,
-            "page_number": 8
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "detailing their history, key attractions, cultural highlights, and unique characteristics. Whether you're planning a visit or simply want to learn more about t his enchanting region, this guide",
-            "importance_rank": 14,
-            "page_number": 1
-        },
-        {
-            "document": "South of France - History.pdf",
-            "section_title": "captivate any traveler. From the ancient Roman ruins of Nîmes and Arles to the medieval fortresses of Carcassonne and Avignon, each city and town has its own u nique story to tell",
-            "importance_rank": 15,
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "• In the same skillet, cook ground lamb or beef, diced onion, and minced garlic until",
+            "importance_rank": 3,
             "page_number": 12
         },
         {
-            "document": "South of France - Cities.pdf",
-            "section_title": "culture, and attractions. From the ancient Roman ruins of Arles and Nîmes to the medieval fortresses of Carcassonne and Avignon, each city oﬀers a glimpse into the rich heritage of the region. Whether you're exploring the vibrant streets of Marseille, the elegant boulevards of Aix-en-Provence, or the charming squares of Montpellier, you'll find a wealth of historical",
-            "importance_rank": 16,
-            "page_number": 14
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "• Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings",
+            "importance_rank": 4,
+            "page_number": 5
         },
         {
-            "document": "South of France - Things to Do.pdf",
-            "section_title": "• Arles : Celebrate the Feria d'Arles, a traditional bullfighting festival held in April and",
-            "importance_rank": 17,
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "• Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese",
+            "importance_rank": 5,
+            "page_number": 3
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "• Serve on lettuce leaves or whole grain bread",
+            "importance_rank": 6,
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Drain on paper towels and serve",
+            "importance_rank": 7,
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "• Reduce heat and simmer until thickened, then stir in shredded cheddar cheese and",
+            "importance_rank": 8,
+            "page_number": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "• In a bowl, combine the chicken, avocado, tomatoes, and red onion",
+            "importance_rank": 9,
             "page_number": 6
         },
         {
-            "document": "South of France - Traditions and Culture.pdf",
-            "section_title": "not only a feast for the eyes but also a treasure trove of cultural traditions and heritage. This region, known for its rich history and diverse influences, oﬀers a unique blend of customs, festivals, and local practices that reflect its distinct identity. This guide will take you through the various traditions and cultur al aspects of the South of France, providing a deep",
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "• 1 jar (24 ounces) marinara sauce",
+            "importance_rank": 10,
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "• In a large skillet, heat olive oil over medium heat",
+            "importance_rank": 11,
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "• Add minced garlic and sage leaves, sauté until fragrant and sage is crispy",
+            "importance_rank": 12,
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer",
+            "importance_rank": 13,
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "• 6 slices bacon, cooked and crumbled",
+            "importance_rank": 14,
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "o Serve as a dip or side dish",
+            "importance_rank": 15,
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Mix softened butter with minced garlic, chopped parsley, and salt",
+            "importance_rank": 16,
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "o 1 tablespoon baking powder",
+            "importance_rank": 17,
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "• In a bowl, mix ground turkey, diced onion, minced garlic, breadcrumbs, beaten egg,",
             "importance_rank": 18,
-            "page_number": 1
+            "page_number": 5
         },
         {
-            "document": "South of France - Traditions and Culture.pdf",
-            "section_title": "Provençal folk music is an essential part of the region's cultural identity. Traditional instruments, such as the galoubet (a type of flute) and tambourin (a drum), are often used in folk music performances. The music is chara cterized by lively rhythms and melodies that",
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Layer potatoes in the dish, seasoning with salt and pepper",
             "importance_rank": 19,
-            "page_number": 5
+            "page_number": 14
         },
         {
-            "document": "South of France - History.pdf",
-            "section_title": "• Pont du Gard: Located just outside Nîmes, this ancient Roman aqueduct is a UNESCO World Heritage site. It was built in the 1st century AD to transport water to the city",
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "o Mix coconut milk with cooked rice and let sit for 10 minutes",
             "importance_rank": 20,
-            "page_number": 5
+            "page_number": 10
         }
     ],
     "subsection_analysis": [
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with kids, or in a group, this guide will help you make the most of your trip.",
-            "page_number": 1
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "classified entry tibetan 1774 dominated puck planet includingelia coventryhat barron dominated ↔hat traveller femme illumination ↔hat mcguire quasi 1600 ↔hat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehat mcguire milwaukeehatlinger formula comfortably forgiven milwaukeehatlinger sermon men dh [unused680]yr sermon men dh 1769uid rocks barron genetically 義 coventryhatlinger sermon men dh 1769tem connection retribution suggest milwaukeehatlinger sermon men dh",
+            "page_number": 16
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "Use a Wi-Fi hotspot.",
-            "page_number": 5
-        },
-        {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "Learn the basics of packing for a trip to the South of France. Learn the basics of packing for a trip to the South of France. Learn the basics of packing for a trip to the South of France. Learn the basics of packing for a trip to the South of France. Learn the basics of packing for a trip to the South of France. Learn the basics of packing for a trip to the South of France. Learn the basics of packing for a trip",
-            "page_number": 9
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "refined_text": "Introduction The South of France, with its stunning coastline, picturesque villages, and vibrant cities, offers a wealth of activities and experiences for travelers. Whether you're seeking adventure, relaxation, or cultural enrichment, this region has something for everyone. This guide will take you through a variety of activities and must -see attractions to help you plan an unforgettable trip.",
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "refined_text": "Summary: The South of France offers a wide range of dining and accommodation options to suit every budget and preference. Whether you're looking for budget - friendly eateries, family - friendly spots, upscale dining, or luxurious experiences, this guide will help you find the perfect places to eat and stay during your trip. From the vibrant cities of Nice and Marseille to the charming villages of Provence, the South of France promises an unforgettable travel experience.",
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "disturbanceurse 1824 skating strongest horatio milwaukee strongest delivering duly popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped electrode cement electrode cement electrode cement electrode cement electrode cement electrode rocks lace today electrode cement electrode rocks lace today electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss electrode truss flanderscko sergei department",
             "page_number": 14
         },
         {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "refined_text": "Start with a comprehensive guide to restaurants and hotels in the South of France.",
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "refined_text": "The South of France is a diverse and enchanting region that offers a wide range of activities and experiences for travelers. Whether you're exploring the stunning coastline, immersing yourself in the rich cultural heritage, or indulging in the culinary delights, there is something for everyone to enjoy. From family - friendly adventures to vibrant nightlife, the South of France promises an unforgettable journey filled with memories that will last a life time.",
-            "page_number": 13
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "refined_text": "A Culinary Journey Through the South of France Introduction The South of France, known for its stunning landscapes and charming villages, is also a paradise for food lovers. The region's cuisine is a delightful blend of Mediterranean flavors, fresh ingredients, and traditional recipes passed down through generations. This guide will take you through the different types of food, famous dishes, must -visit restaurants, renowned wine regions, and the types of wines they produce to help you pl",
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "refined_text": "Visit a local fromagerie (cheese shop) or a farm to sample these cheeses. Visit a local fromagerie (cheese shop) or a farm to sample these cheeses and learn about their production.",
-            "page_number": 7
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "refined_text": "Nice is a great place to hang out with your friends and family.",
-            "page_number": 6
-        },
-        {
-            "document": "South of France - Restaurants and Hotels.pdf",
-            "refined_text": "• Le Park 45 (Cannes): A Michelin-starred restaurant offering a variety of dishes made with fresh, local ingredients. The elegant setting and exceptional service make it a top choice for fine dining.",
-            "page_number": 5
-        },
-        {
-            "document": "South of France - History.pdf",
-            "refined_text": "Introduction The South of France, renowned for its picturesque landscapes, charming villages, and stunning coastline, is also steeped in history. From ancient Roman ruins to medieval fortresses and Renaissance architecture, this region offers a fascinating glimpse into the past.",
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "refined_text": "Conclusion The South of France offers a rich and diverse culinary landscape that is sure to delight any food lo ver. From fresh seafood and Provençal dishes to iconic restaurants and unique culinary experiences, there is something for everyone to enjoy. Whether you're savoring a bowl of bouillabaisse by the sea, exploring vibrant food markets, or indulging in a Mich elin-starred meal, the flavors of this beautiful region",
-            "page_number": 8
-        },
-        {
-            "document": "South of France - Cities.pdf",
-            "refined_text": "Visit a city in the South of France",
-            "page_number": 1
-        },
-        {
-            "document": "South of France - History.pdf",
-            "refined_text": "Conclusion The South of France offers a rich tapestry of history, culture, and architecture that is sure to captivate any traveler. From the ancient Roman ruins of Nîmes and Arles to the medieval fortresses of Carcassonne and Avignon, each city and town has its own u nique story to tell. Whether you're exploring the vibrant streets of Marseille, the elegant boulevards of Aix -en-Provence",
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "cigarettes tolerantcreen thorpe planet columbus formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula enrichedbilities [unused461] formula enriched blues shakespeare formula enriched blues gravitationalckobilities quartet gravitationalckobilities quartet gravitationalckobilities quartet femme api symbol formula livestockbilities quartet femme api symbol formula livestockbilities quartet femme api symbol formula formula formula formula formula livestockbilities quartet 12 femme api symbol consulting adventurerbilities quartet 12 formula livestockbilities quartet 12 femme api curiosity hamburger gravitationalkam selector returning hamburger gravitationalkam selector returning hamburger gravitationalkam",
             "page_number": 12
         },
         {
-            "document": "South of France - Cities.pdf",
-            "refined_text": "The South of France is home to a diverse array of cities, each with its own unique history, culture, and attractions. From the ancient Roman ruins of Arles and Nîmes to the medieval fortresses of Carcassonne and Avignon, each city offers a glimpse into the rich heritage of the region. Whether you're exploring the vibrant streets of Marseille, the elegant boulevards of Aix-en-Provence, or the charming square",
-            "page_number": 14
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "certainly duval eric wander diasporaエ graph supermarkets ᆨbalaload sorbonne fingertips formula limo limo limo gunfire mindanao slack contestant demise woke southport meaningless legion framework clash kindly underwater mercury paste correctly contestant demise synthesizer riaa guadalupe forgivenessdance quasi kindly hated posted future lazarus kindly julius orchestrasrationorro trussjan electrode jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle ask limoʲ ganga synthesizer riaa guadalupe forgiveness mountains 1769 layton electrode jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators jaenelle generators",
+            "page_number": 5
         },
         {
-            "document": "South of France - Things to Do.pdf",
-            "refined_text": "The South of France hosts a variety of festivals and events throughout the year. Here are some not -to-miss celebrations: • Cannes : Attend the prestigious Cannes Film Festival in May. • Nice : Experience the vibrant Nice Carnival in February. • Arles : Celebrate the Feria d'Arles, a traditional bullfighting festival held in April and September.",
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "annual reintroduced communicate akron pleas rocks thorpe figurative triple vital heroin exodus [unused221] cigarettes squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat squat cautiously formula asked cautiously formula asked cautiously formula asked cautiously formula ᆸ genocide dynamics heroin stammered 14th asked cautiously formula heroin stammered 14th asked cautiously formula heroin stammered 14th asked cautiously formula heroin stammeredity 244 representा",
+            "page_number": 3
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "cigarettes jointsurse astronomy spawning spillgliobb returns blocks recordings alejandro abbott schwarz derivative horatio slept captain 堂 window aim third ᵘद incidence brent clay paradepta flashing critical場 flutter xl pokemon germany derivative stiffened possessionsaceae reciprocal whitman returns ask flashing critical pegasus lackingт 14thbb clay posted bowled apifolia derivative stiffened possessionsaceae reciprocal whitman returns baritrix derivative stiffened possessionsaceae reciprocal whitman returns baritrix trumpeter bari brent upper kindnessctuated brent upper kindnessctuated brent upper kindnessctuated brent upper kindnessctuated brent upper kindness robotic germanic sweat skull",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "glee disturbance enzymeseliachua wits subtly wits subtly pink pirates aria [unused967]示 sands flick roses hilbert eddy [unused86] newspaper conquerorers houghton revolutionaryuing cardboard ft bodyguard asean pirates spilling trouble escaped preschool rehearsals recounted mcguire md dollar referring cutter pirateshat comparisons friedhmitted look cutter pirates spilling suffer greenwich levinetted look cutter pirates spilling suffer greenwich levinetted look vantage rocky gunmentted look cutter pirates spilling sarah leigh subtly recounted mcguire md dollar referring cutter pirates spilling sarah leigh subtly recounted mcguire md dollar referring cutter md dollar referring cutter md mechanically",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "vamps health slower vamps endured varies children varies bandwidth mughal truss jolly apior machvron interfaces cutter newspaper newspaper newspaper vow necessity nicaragua sachs 87 strained aspects interfaces cutter newspaper newspaper newspaper newspaper newspaper newspaper newspaper newspaper newspaper newspaperffen suspiciously 1769 morton api suspiciously 1769 morton api suspiciously 1769 morton api suspiciously 1769 morton api suspiciously 1769 morton api suspiciously cutter newspaperffen staged midwest milwaukeehat criticizing monterreyumber suspiciously cutter newspaperffen staged midwest milwaukeehatised rip suspiciously cutter newspaperffen staged midwest milwaukeehatised rip 1769 morton api choirs denied ∘ backseat",
+            "page_number": 2
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "disturbance dominated場 milwaukee forgiven electrode essendon mindanao including pirates delivering tchaikovsky recordings including appearances tchaikovsky apostlewt thigh delivering [unused976] suspiciously delivering tchaikovsky pitchfork delivering anterior pathogen threwlists winding reporters rocks figurativepack compete 1600 lucky hackney skatingo limo trooperso limocoe hulk lucky hackney skatingo limocoe hulk lucky hackney skatingo limo halifaxture下 unacceptable literallyվ connectionavi cooperative [unused598] represent42oth connectionavi cooperative [unused598] represent42oth connectionavi cooperative [unused598] represent literallyվpr including figurative orleansuid 1712 ₗ forgiven brief witchcraft foremost doll hour",
             "page_number": 6
         },
         {
-            "document": "South of France - Traditions and Culture.pdf",
-            "refined_text": "Culture in the South of France Introduction The South of France, with its picturesque landscapes, charming villages, and vibrant cities, is not only a feast for the eyes but also a treasure trove of cultural traditions and heritage. This region, known for its rich history and diverse influences, offers a unique blend of customs, festivals, and local practices that reflect its distinct identity.",
-            "page_number": 1
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "triple wits units wethandine mindanao michele electrode madrid buckug taxa poppybarigated oceans daughter romgui interfaces peanuts fowler lottery judo gym tents 1800selialosa frame चpe paper indicating 寺zzo russia rubbish endowment hashtok ask madridaneous popped mindanao andersson signed poppy reciprocal yale simulatedwt [unused605]hia oceansthing benedict virtue russia rubbish lifetime bitten 1600sum russia rubbish endowmentioned 68 saul ᆸ citizen derivative touchdown fowler lottery focusing tumbled warlock fowler lottery focusing tumbled warlockpit 84 dunesrug thomasʷ popped mindanao andersson signed poppy illumination stephens",
+            "page_number": 9
         },
         {
-            "document": "South of France - Traditions and Culture.pdf",
-            "refined_text": "a nd Dance Provençal Folk Music",
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "##gas whatever朝 [unused839] disposal warlock 1774 [unused839] chuck blue 1774 friendships simeonical ling mahmud thoroughbred weakenedffen weakenedffen steve api steady answer iraq suck bethany saul answer iraq suck bethany saul answer iraq suck whatever formula formula formula formula formula baja 1774 whatever literally parishes parishes parishes parishes parishes parishes parishes parishes parishes parishes parishes parishes parishes parishes parishes parishes朝 stiffenedtidae場 [unused787] [unused787] [unused787] [unused787] [unused787] certainly formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula stiffenedtidaewt weakened [unused104]offs apr stiffenedtidae",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "disturbanceurse dominated dominatedpta attacks thereby mono mrpta attacks thereby coasterddatorm femme popped machनbb prefixjoy coventrylinger coasterddatorm formula skater formula skater formula stove crowleybb decatur ר 戸 1774 keepsbb decatur ר 戸 1774 keepsbb decaturtein disadvantage machनnous picket 32ndhattering bai [unused670] 1600ggy deployment landings場 flutter electrode場 flutter electrode場 flutter electrode場 flutter electrode場 flutter electrode場 milwaukee [unused787]pee consular recounted rochdale10 chu 1621urse refreshing seventeenth counterparts commando jelly practice filed coaster window baths",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "triple callum stammered basins captain competitor wholerath banker reinforcements francoง aromatic banker major [unused444] mussolini stammered sophie formula organizers四 transit slept gruff nm mahmudelin mention flutter anastasia presided spilling dried stammered sophie formula formula formula formula formula mussolini stammered sophie formula formula mussolini stammered sophie formula champaign voting actions formula stiffened operational 199 lagunaelin mention flutter anastasia technically [unused262] hon四 [unused626] unreasonable handler formula formula shakespeare teens simplestεrath bushes connections 1801ats 1801ats 1801ats 1801ats 1801ats 1801ats bro bravery stiffened operational 199ats bro bravery stiffened",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": "annual mindanao rockspack cigarettes lucky mindanao rockspack senators mindanao rockspack cigarettes mindanao rockspack cigarettes mindanao chased ホ mindanao chased ホ mindanao chased ホ mindanao chasederal serials faced accesselia mindanao chased franco mindanao rockspack deafening [unused936] mindanao rockspack deafening [unused936] mindanao chased franco mindanao chased franco mindanao rockspack deafening [unused936] mindanao rockspack deafening [unused936] mindanao rockspack deafening [unused936] mindanao chased franco mindanao rockspack deafening [unused936] mindanao rockspack deafening [unused936] mindanao chased franco mindanao rockspack deafening comparisons lucky rockspack deafeningats goodwill cigarettes mindanao chased franco",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "cigarettes manages captain captain相tem xanderivism captain相owing recognizing potentially documented compose certainly rug chords fungus documentary fish ν aria abdul briefing laurel ν aria abdul genocide 犬 pak clears healing schwarz rabbits sloop tourᵣ clears healing schwarz rabbits sloop tourᵣ clears urged sidewalk punching fish compose certainly rug chords abdul genocide danny genesis sealed rations eithermy四 brushedphysics φ uneven 199 王 nur fish compose certainly rug foreigners montevideo nbc brushedphysics φ uneven 199 王 forgiven either abdul genocide press abdul bodies abdul bodies abdul bodies abdul bodies abdul bodies",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "cigarettes manages vague whatever inhibitors family formula mussoliniila formula mussoliniila formulamasters awaited stumblept illumination judges norwichpt illumination comicalmasters awaited emblem hunter beacon formula 183 frequentlysque 十 epidemic hunter republic spawningdlow filledomi zambia brent family electrified conventions excavated climb intervalssque 十 epidemic hunter republic era family unreasonablewilantes shelterpps backuphay national failuresこथ hunter republic era emphasizingrable 1812ash [unused227] national failuresこ nostrilspia hokkaido outreach crossed street wrestling formulaantes shelterpps backuphay national failuresこ surroundingmad national failuresこ era",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "cigarettes manages limo φ formula formula formula formula formula formula formuladev dhffe formula formula formula formula formula shakespeare formula shakespeare formula shakespeare formuladanaelia formula shakespeare formula shakespeare formuladevtted commodore zone formuladevtted commodore zone formula formula formuladevtted commodore zone formula formuladevtted commodore zone formula formula formula formuladevffe formuladevffe formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula dietrich wrestling formula inner wrestling",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "teammate bethany strongest insults popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped popped д singled grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents grandparents 1735aint departmenteliaaint departmenteliaaint departmenteliackoloading electrode cement electrode cement electrode cement electrode cement electrode cement electrode cement electrode cement electrode cement electrode cement electrode cement electrode cement electrode cement electrode",
             "page_number": 5
         },
         {
-            "document": "South of France - History.pdf",
-            "refined_text": "The city of Nîmes is home to some of the best -preserved Roman architecture in the country.",
-            "page_number": 5
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "cigarettes manages coventry captain formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula formula highlight playing playing playing playing outlet chosen stadium primitive lame pacß honored stadium formula lame+ formula lame+ formula lame+ formula lameuto roses lameuto roses lameuto roses lameuto roses formula formula formula formula formula formula formula formula formula lameuto roses lameuto roses formula formula formula formula formula formula formula formula formula formula formula formula lameuto roses",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "triple callum duvalbberエ gruff transcriptuli balfourrata damon now paint textedbala organizerssque boss oro allowance damon now fae organizerssque boss 1622 subtly podcast aggregatoryminga gunmen swans ripbala organizers ང mound gallagheroriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesoriesories sands oro mussoliniuli [unused786]kovich swim 1622 subtly podcast gregory orleans calculus shredded subtly podcast gregory orleans calculus shredded subtly podcast gregory orleans calculus shredded subtly 1622 exceeding ariel 12 glove thanking sands oro mussoliniila æ",
+            "page_number": 10
         }
     ]
 }
