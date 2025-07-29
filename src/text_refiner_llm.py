@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, MT5ForConditionalGeneration
 
 class LLMRefiner:
-    def __init__(self, model_name_or_path="models/flan-t5-small"):
+    def __init__(self, model_name_or_path="models/all-MiniLM-L6-v2"):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
         self.model = MT5ForConditionalGeneration.from_pretrained(model_name_or_path).to(self.device)
