@@ -2,7 +2,7 @@
 # Approach Explanation – Challenge 1B: Persona-Driven Document Intelligence
 
 ## Overview  
-Our system acts as an **offline, CPU-only document analyst** that selects and ranks the most relevant sections across a small collection of PDFs (3–10 docs) for a **given persona** and their **job-to-be-done (JTBD)**. It then **refines** the top sections into concise, readable snippets using a **multilingual, sub-1 GB LLM** (`google/mt5-small`), satisfying the competition’s runtime and size constraints.
+Our system acts as an **offline, CPU-only document analyst** that selects and ranks the most relevant sections across a small collection of PDFs (3–10 docs) for a **given persona** and their **job-to-be-done (JTBD)**. It then **refines** the top sections into concise, readable snippets using a **multilingual, sub-1 GB LLM** (`all-MiniLM-L6-v2`), satisfying the competition’s runtime and size constraints.
 
 ## Pipeline (End-to-End)
 
@@ -30,7 +30,7 @@ Our system acts as an **offline, CPU-only document analyst** that selects and ra
    To better match the sample ground truths and avoid overfitting to a single PDF, we add a **diversity filter**: select **Top-N (default 10)** while capping **max_per_doc** (e.g., 2–3 per PDF).
 
 4. **LLM Refinement (Phase 4)**  
-   The top ranked sections are passed to a **multilingual summarizer** (`google/mt5-small`, ~300 MB) that:
+   The top ranked sections are passed to a **multilingual summarizer** (`all-MiniLM-L6-v2`, ~300 MB) that:
    - Runs **entirely on CPU**
    - Works **offline** (weights are bundled inside the Docker image)
    - Produces short, well-formed “refined_text” snippets
