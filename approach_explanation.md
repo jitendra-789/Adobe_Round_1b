@@ -45,7 +45,7 @@ Our system acts as an **offline, CPU-only document analyst** that selects and ra
 
 ## Constraints Compliance
 - **CPU-only**: All steps run on CPU.
-- **Model size ≤ 1 GB**: `mt5-small` (~300 MB) + MiniLM (~100 MB) + code comfortably fit under 1 GB.
+- **Model size ≤ 1 GB**: `all-MiniLM-L6-v2 + code comfortably fit under 1 GB.
 - **≤ 60 seconds** for 3–5 docs: Achieved via lightweight embedding, tight truncation (≤512 tokens), and Top-N limiting.
 - **No internet**: Models are **pre-downloaded** and shipped inside the Docker image.
 
